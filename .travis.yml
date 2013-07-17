@@ -8,6 +8,7 @@ node_js:
 
 before_install:
   - echo 'before_install'
+  - npm install vows -g
 install:
   - echo 'alternative depen. install'
 after_script:
