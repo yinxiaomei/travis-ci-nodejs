@@ -8,9 +8,11 @@ node_js:
 
 before_install:
   - echo 'before_install'
-  - npm install vows -g
+  - sudo npm config set dev true 
+ 
 install:
   - echo 'alternative depen. install'
+  - npm install vows -g
 after_script:
   - ls -a
 # configure notifications (email, IRC, campfire etc)
