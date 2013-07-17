@@ -2,12 +2,14 @@ language: node_js
 
 # test on two node.js versions: 0.6 and 0.8
 node_js:
+  - 0.10
   - 0.6
   - 0.8
-install:
-  - echo 'alternative depen. install'
+
 before_install:
   - echo 'before_install'
+install:
+  - echo 'alternative depen. install'
 after_script:
   - ls -a
 # configure notifications (email, IRC, campfire etc)
@@ -15,8 +17,8 @@ after_script:
 notifications:
   email:
     recipients:
-      - 501543619@qq.com
-      - 602338218@qq.com
+      - family889@126.com
+      - yinxiaomei520@gmail.com
     on_success:  always
     on_failure: always
 
