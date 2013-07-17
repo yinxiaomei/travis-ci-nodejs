@@ -8,5 +8,10 @@ node_js:
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
 notifications:
-  email: "501543619@qq.com"
+  email:
+    recipients:
+      - 501543619@qq.com
+      - 602338218@qq.com
+    on_success: [always|never|change] # default: always
+    on_failure: [always|never|change] # default: always
 
