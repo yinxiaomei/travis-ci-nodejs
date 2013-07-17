@@ -17,11 +17,11 @@ after_script:
   - ls -a
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
-notifications:
-  email:
-    recipients:
-      - family889@126.com
-      - yinxiaomei520@gmail.com   
-    on_success:  always
-    on_failure: always
+#notifications:
+#  email:
+#    recipients:
+  #    - family889@126.com
+  #    - yinxiaomei520@gmail.com   
+  #  on_success:  always
+  #  on_failure: always
 
